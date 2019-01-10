@@ -8,8 +8,6 @@
 #
 # For full config options, check the docs:
 #    docs.serverless.com
-#
-# Happy Coding!
 
 app: python-ci-dev
 service: python-ci
