@@ -11,8 +11,8 @@
 #
 # Happy Coding!
 
-service: python-ci
 app: python-ci-dev
+service: python-ci
 tenant: stratis
 
 # exclude the code coverage files and circle ci files

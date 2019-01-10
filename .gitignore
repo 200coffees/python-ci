@@ -1,26 +1,27 @@
 # Distribution / packaging
-.Python
-env/
+*.egg-info/
+*.egg
+*.iml
+*.pyc
+__pycache__/
+.coverage
+.installed.cfg
+.serverless
 build/
+cover
 develop-eggs/
 dist/
 downloads/
-eggs/
 .eggs/
+eggs/
+env/
+htmlcov
+.idea/
 lib/
 lib64/
+node_modules
+.Python
 parts/
 sdist/
 var/
-*.egg-info/
-.installed.cfg
-*.egg
-node_modules
-__pycache__/
-*.pyc
-.coverage
-htmlcov
-cover
 
-# Serverless directories
-.serverless
