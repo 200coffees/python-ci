@@ -12,6 +12,8 @@
 # Happy Coding!
 
 service: python-ci
+app: python-ci-dev
+tenant: stratis
 
 # exclude the code coverage files and circle ci files
 package:
@@ -29,6 +31,7 @@ provider:
   runtime: python3.6
   stage: dev
   region: us-east-1
+  profile: serverless
 
 # The `functions` block defines what code to deploy
 functions:
