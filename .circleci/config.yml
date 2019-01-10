@@ -55,4 +55,6 @@ jobs:
       # deploy app
       - run:
           name: Deploy application
-          command: sls deploy -v
+          command: |
+            mkdir ~/.aws echo -e "[serverless]\naws_access_key_id=$AWS_ACCESS_KEY_ID\naws_secret_access_key=$AWS_SECRET_ACCESS_KEY\n" > ~/.aws/credentials
+            sls deploy -v
