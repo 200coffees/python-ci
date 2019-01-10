@@ -8,5 +8,4 @@ def hello_world(event, context):
         "statusCode": 200,
         "body": json.dumps(world.say_hello(event))
     }
-
     return response
