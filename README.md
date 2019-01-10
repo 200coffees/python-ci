@@ -2,7 +2,9 @@
 
 A simple serverless Python app that showcases CI with Circle CI. This is a companion app for the blog post [Automating a CI workflow for a Python app with Circle CI]().
 
-![](https://circleci.com/gh/rupakg/python-ci.svg?style=shield&circle-token=:circle-token)
+# ![](https://circleci.com/gh/rupakg/python-ci.svg?style=shield&circle-token=:circle-token)
+
+[![CircleCI](https://circleci.com/gh/stratis/python-ci.svg?style=svg)](https://circleci.com/gh/stratis/python-ci)
 
 ## Local
 
